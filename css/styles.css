@@ -1,0 +1,39 @@
+body {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	height: 1500px;
+	padding-top: 75px;
+}
+.footer {
+	border-radius: 5px;
+}
+footer {
+	background-color: #010B6C;
+	padding-top: 150px;
+	padding-bottom: 20px;
+}
+.home {
+	 background: linear-gradient( rgba(50, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../Images/logo.jpg") no-repeat center top;
+     background-size: cover;
+     height: 500px;
+     border-radius: 5px;
+     opacity: 0.3;
+}
+.turnos {
+	background-image: url('../images/imagen2.jpg');
+	background-attachment: fixed;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.turnos p {
+	font-size: 20px;
+}
+.turnos a {
+	color: white;
+}
+.donde {
+	height: 500px;
+}
+h1 {
+	color: black;
+}

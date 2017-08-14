@@ -1,21 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!-- Icon -->
+	<link rel="icon" type="image/jpeg" href="images/logo.jpg" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/c2a2b83e4d.css">
+    <!-- Own styles -->
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-  <div class="container">
-  <h1 class="jumbotron text-center">Hello World!</h1>
+  <div class="container-fluid">
+  <!-- Navbar start -->
+  <div class="pos-f-t fixed-top">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-primary p-4">
+      <nav class="nav">
+		  <a class="nav-link active btn btn-info text-white" href="#home">HOME</a>
+		  <a class="nav-link btn text-white" href="#turnos">Turnos</a>
+		  <a class="nav-link btn text-white" href="#donde">Donde estamos?</a>
+		</nav>
+    </div>
   </div>
+  <nav class="navbar navbar-inverse bg-info">
+    <button class="navbar-toggler float-left" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fa-stack fa-1x"><i class="fa fa-square fa-stack-2x" aria-hidden="true"></i><i class="fa fa-bars fa-stack-1x" aria-hidden="true" style="color: #808080;"></i></span>
+	   	<h3 class="text-right d-inline-block">Consultorio tribunales</h3>
+    </button>
+  </nav>
+</div>
+<!-- NavBar finish -->
+  <section id="home" class="home mb-5" >
+  <div>
+  	<h1 class="text-center pt-5">Bienvenidos</h1>
+  </div>
+  </section>
+  <section class="turnos mb-5" id="turnos">
+  	<h2 class="text-center text-white pt-5">Turnos</h2>
+  	<div class="row">
+  		<div class="col-6 text-center mt-5">
+  			<p>Recepción y organización de turnos,</p>
+  			<p>de lunes a viernes telefónicamente, de 9:00 a 19:00, al:</p>
+  			<p>0810-999-3333</p>
+  		</div>
+  		<div class="col-6 text-center mt-5">
+  			<p>O desde nuestra <a href="http://www.central-integral.com.ar/">Central de turnos.</a></p>
+  			<p><a href="http://www.central-integral.com.ar/">DESDE AQUÍ</a></p>
+  		</div>
+  	</div>
+  </section>
+ 
+  <section class="donde jumbotron mb-5" id="donde">
+	<h2 class="text-center mb-4">¿Donde estamos?</h2>
+  	<div class="row">
+  		<div class="col-6 text-center mt-5">
+  			<p>Avenida Cordoba 1504 Piso 2-A.</p>
+  			<p>C.A.B.A. 1505 CPA 1055.</p>
+  			<p>Provincia de Buenos Aires</p>
+  		</div>
+  		<div class="col-6 text-center mt-5">
+  			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.182630756663!2d-58.39064568432773!3d-34.599543080460485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac755d8dad1%3A0x798bfb33e942b33e!2sAv.+C%C3%B3rdoba+1504%2C+C1055AAS+CABA!5e0!3m2!1ses!2sar!4v1502390922704" width="500" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+  		</div>
+  	</div>
+  </section>
 
+  <footer class="footer">
+  <h4 class="text-center text-white mb-5"><u>Gracias</u></h4>
+  	<div class="row text-center align-bottom"> 	
+  		<div class="col-4">
+  			<nav class="nav flex-column">
+			  <a class="nav-link active" href="#">Active</a>
+			  <a class="nav-link" href="#">Link</a>
+			  <a class="nav-link" href="#">Link</a>
+			  <a class="nav-link" href="#">Disabled</a>
+			</nav>
+  		</div>
+  		<div class="col-4">
+  			<nav class="nav flex-column">
+			  <a class="nav-link active" href="#">Active</a>
+			  <a class="nav-link" href="#">Link</a>
+			  <a class="nav-link" href="#">Link</a>
+			  <a class="nav-link" href="#">Disabled</a>
+			</nav>
+  		</div>
+  		<div class="col-4">
+  			<nav class="nav flex-column">
+			  <a class="nav-link active" href="#">Active</a>
+			  <a class="nav-link" href="#">Link</a>
+			  <a class="nav-link" href="#">Link</a>
+			  <a class="nav-link" href="#">Disabled</a>
+			</nav>
+  		</div>
+  	</div>
+  	<p class="text-center text-white mt-4">Todos los derechos reservados. &copy2017 Diseño y Programación: <a href="https://github.com/PlehmA">Andrés Plehm</a>.</p>
+  </footer>
+     </div>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/12a86aaace.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+    	window.sr = ScrollReveal({
+    		reset:true
+    	});
+			sr.reveal('.home');
+			sr.reveal('.turnos');
+			sr.reveal('.donde');
+			sr.reveal('.footer');
+    </script>
+    <script>
+    $.(document).ready({
+      $.
+      $.ajax({
+        url:'clima.php',
+        dataType:'json',
+      });
+    )};
+    </script>
   </body>
 </html>
